@@ -24,7 +24,7 @@ interface IERC5564Announcer {
   );
 
   /// @dev Called by integrators to emit an `Announcement` event.
-  /// @param schemeId The applied stealth address scheme (such as secp25k1).
+  /// @param schemeId The applied stealth address scheme (such as secp256k1).
   /// @param stealthAddress The computed stealth address for the recipient.
   /// @param ephemeralPubKey Ephemeral public key used by the sender.
   /// @param metadata Arbitrary data to emit with the event. The first byte MUST be the view tag.
